@@ -1,0 +1,54 @@
+.navbar .menu-bar{
+    height: ;
+    width: ;
+    display: flex;
+    flex-direction: ;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar .menu-bar .bar{
+    height: 5px;
+    border-radius: 20px;
+    width: 2rem;
+    background: black;
+    position: absolute;
+    margin: 15px 0;
+}
+.navbar .menu-bar .bar::before,
+.navbar .menu-bar .bar::after{
+    height: 5px;
+    border-radius: 20px;
+    width: 2rem;
+    content: "";
+    background: black;
+    position: absolute;
+}
+.navbar .menu-bar .bar::before{
+    transform: translateY(8px);
+}
+.navbar .menu-bar .bar::after{
+    transform: translateY(-8px);
+}
+main .intro{
+    height: 80vh;
+    background: black;
+}
+main .intro .carousel .carousel-item{
+    height: 100%;
+}
+main .intro .carousel img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+input:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 330px) {
+    main .intro{
+        height: 65vh;
+    }
+}
