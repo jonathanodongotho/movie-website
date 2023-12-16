@@ -1,15 +1,17 @@
+.inner-nav{
+    width: 100%;
+}
 .navbar .menu-bar{
-    height: ;
-    width: ;
+    height: 4rem;
+    width: 4rem;
     display: flex;
-    flex-direction: ;
     justify-content: center;
     position: relative;
     align-items: center;
     cursor: pointer;
 }
 .navbar .menu-bar .bar{
-    height: 5px;
+    height: 3.5px;
     border-radius: 20px;
     width: 2rem;
     background: black;
@@ -18,7 +20,7 @@
 }
 .navbar .menu-bar .bar::before,
 .navbar .menu-bar .bar::after{
-    height: 5px;
+    height: 3.5px;
     border-radius: 20px;
     width: 2rem;
     content: "";
@@ -45,6 +47,15 @@ main .intro .carousel img{
 }
 input:focus{
     outline: none;
+}
+.nav-small{
+    height: 100%;
+
+}
+@media screen and (max-width: 991px) {
+    .inner-nav{
+        width: initial;
+    }
 }
 
 @media screen and (max-width: 330px) {
