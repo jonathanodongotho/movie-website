@@ -1,40 +1,20 @@
 .inner-nav{
     width: 100%;
 }
-.navbar .menu-bar{
-    height: 4rem;
-    width: 4rem;
+.menu-bar.notactive{
+    height: 3.5rem;
+    width: 3.5rem;
     display: flex;
     justify-content: center;
     position: relative;
     align-items: center;
     cursor: pointer;
 }
-.navbar .menu-bar .bar{
-    height: 3.5px;
-    border-radius: 20px;
-    width: 2rem;
-    background: black;
-    position: absolute;
-    margin: 15px 0;
-}
-.navbar .menu-bar .bar::before,
-.navbar .menu-bar .bar::after{
-    height: 3.5px;
-    border-radius: 20px;
-    width: 2rem;
-    content: "";
-    background: black;
-    position: absolute;
-}
-.navbar .menu-bar .bar::before{
-    transform: translateY(8px);
-}
-.navbar .menu-bar .bar::after{
-    transform: translateY(-8px);
+.fa{
+    font-size: 2.5rem;
 }
 main .intro{
-    height: 80vh;
+    height: 80%;
     background: black;
 }
 main .intro .carousel .carousel-item{
@@ -48,18 +28,69 @@ main .intro .carousel img{
 input:focus{
     outline: none;
 }
-.nav-small{
+.nav-small-container{
+    display: none;
+    z-index: 100;
+    width: 100%;
     height: 100%;
-
+    content: "";
+    background: rgb(251, 255, 3);
+    position: absolute;
+    transform: translateX(-50rem);
+    top: 0;
+    left: 0;
+    transition: all .2s ease-in-out;
 }
+
+
 @media screen and (max-width: 991px) {
     .inner-nav{
         width: initial;
     }
+    .nav-small-container{
+        display: initial;
+    }
+    .nav-small-container.open{
+        display: initial;
+        transform: translateX(0);
+    }
+    .nav-small{
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background: rgb(255, 3, 3);
+        position: absolute;
+    }
+    
 }
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 330px) {
+}
+@media screen and (max-width: 425px) {
+    nav{
+        height: 3.6rem;
+    }
+    .nav-small{
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background: rgb(255, 3, 3);
+        position: absolute;
+    }
+    .fa{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 375px) {
+
+}
+@media screen and (max-width: 320px) {
     main .intro{
-        height: 65vh;
+        height: 65%;
+    }
+    .fa{
+        font-size: 1.6rem;
     }
 }

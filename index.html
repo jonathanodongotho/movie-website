@@ -15,7 +15,7 @@
 <body>
 
     <head>
-        <nav class="px-4 navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between">
+        <nav class="px-2 py-0 navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between">
             <div class="inner-nav d-flex justify-content-between">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <div class="d-none d-lg-inline-block">
@@ -42,15 +42,48 @@
                     </ul>
                 </div>
             </div>
-            <div class="d-lg-none menu-bar">
-                <div class="bar"></div>
+            <div class="d-lg-none menu-bar notactive" id="menuBar-notactive">
+                <i class="fa fa-bars"></i>
             </div>
         </nav>
-        <div class="nav-small">
-
-        </div>
+        
     </head>
     <main>
+        <div class="nav-small-container" id="menu">
+            <div class="nav-small px-3 pt-3">
+                <div class="d-flex justify-content-between">
+                    <a class="navbar-brand" href="#">Navbarx</a>
+                    <div class="d-lg-none menu-bar active" id="menuBar-active">
+                        <i class="fa fa-xmark"></i>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-none d-lg-inline-block">
+                        <form
+                            class="d-flex justify-content-center align-items-center border border-secondary-subtle border-1"
+                            role="search">
+                            <button class="btn py-0 px-1" type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <input class="border-0" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="d-none d-lg-inline-block">
+                        <ul class="navbar-nav d-flex justify-content-between">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">link one</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">link two</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">link three</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="intro">
             <div id="carouselExampleAutoplaying" class="carousel carousel-fade slide h-100" data-bs-ride="carousel">
                 <div class="carousel-inner h-100">
