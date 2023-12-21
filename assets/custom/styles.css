@@ -6,8 +6,6 @@
 .inner-nav{
     width: 100%;
     padding: 0.8rem 0;
-    position: ;
-    top: ;
 }
 .nav-link{
     color: white;
@@ -102,11 +100,6 @@ input:focus{
     background: rgb(255, 255, 255);
     color: rgb(255, 0, 0);
 }
-.intro .propertiz{
-
-}
-
-
 img{
     transition: transform 40s ease;
 }
@@ -115,9 +108,6 @@ img{
 }
 .gallery{
     padding: 2.5rem 0;
-}
-.gallery .gallery-one{
-
 }
 .gallery .gallery-one .gall-title h5{
     font-size: 1.5rem;
@@ -194,7 +184,6 @@ img{
 .gallery .gallery-one .gall-item .bottom-items .btn{
     background: red;
     border-radius: 0;
-    padding: ;
     color: white;
     font-weight: 700;
     transition: all 0.3s ease-in-out;
@@ -202,12 +191,7 @@ img{
 .gallery .gallery-one .gall-item .bottom-items .btn:hover{
     background: rgb(255, 255, 255);
     color: rgb(255, 0, 0);
-    border: ;
     border-radius: 12px;
-}
-
-.gallery .gallery-three{
-    
 }
 .gallery .gallery-three .gall-item{
     padding: .5rem;
@@ -286,7 +270,6 @@ img{
         width: 100%;
         height: 100%;
         content: "";
-        background: ;
         position: absolute;
     }
     main .intro{
@@ -324,9 +307,6 @@ img{
         overflow: hidden;
         padding: 0;
     }
-    .gallery .gallery-one .gall-item .img-container img{
-        
-    }
     .gallery .gallery-one .gall-item .overlay{
         width: 14.3rem;
         height: 13.3rem;
@@ -349,9 +329,6 @@ img{
     }
     .gallery .gallery-one .gall-item .bottom-items .btn{
         font-size: 0.9rem;
-    }
-    .gallery .gallery-three{
-    
     }
     .gallery .gallery-three .gall-item{
         padding: .5rem;
@@ -425,9 +402,6 @@ img{
         overflow: hidden;
         padding: 0;
     }
-    .gallery .gallery-one .gall-item .img-container img{
-        
-    }
     .gallery .gallery-one .gall-item .overlay{
         width: 12rem;
         height: 10.5rem;
@@ -443,7 +417,6 @@ img{
         width: 100%;
         height: 100%;
         content: "";
-        background: ;
         position: absolute;
     }
     main .intro{
@@ -451,9 +424,6 @@ img{
     }
     .fa{
         font-size: 1.5rem;
-    }
-    .carousel-caption{
-        
     }
     .intro .brief-review p{
         width: 100%;
@@ -463,7 +433,6 @@ img{
     }
     .intro .btn{
         font-size: 0.6rem;
-        padding: ;
     }
     .intro .propertiz{
         font-size: 0.8rem;
@@ -496,9 +465,6 @@ img{
         overflow: hidden;
         padding: 0;
     }
-    .gallery .gallery-one .gall-item .img-container img{
-        
-    }
     .gallery .gallery-one .gall-item .overlay{
         width: 11rem;
         height: 10.5rem;
@@ -521,9 +487,6 @@ img{
     }
     .gallery .gallery-one .gall-item .bottom-items .btn{
         font-size: 0.7rem;
-    }
-    .gallery .gallery-three{
-
     }
     .gallery .gallery-three .gall-item{
         padding: .5rem;
@@ -610,9 +573,6 @@ img{
     .fa{
         font-size: 1.5rem;
     }
-    .carousel-caption{
-        
-    }
     .intro .brief-review p{
         width: 100%;
         font-size: 0.8rem;
@@ -621,7 +581,6 @@ img{
     }
     .intro .btn{
         font-size: 0.6rem;
-        padding: ;
     }
     .intro .propertiz{
         font-size: 0.7rem;
@@ -663,9 +622,6 @@ img{
     .fa{
         font-size: 1.3rem;
     }
-    .carousel-caption{
-
-    }
     .intro .brief-review p{
         width: 100%;
         font-size: 0.7rem;
@@ -674,7 +630,6 @@ img{
     }
     .intro .btn{
         font-size: 0.4rem;
-        padding: ;
     }
     .intro .propertiz{
         font-size: 0.7rem;
