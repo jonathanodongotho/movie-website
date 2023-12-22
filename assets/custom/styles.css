@@ -252,6 +252,97 @@ img{
     color: rgb(231, 231, 231);
     padding: 1rem 0;
 }
+.gallery .gallery-four .cont-container h6{
+    color: rgb(175, 0, 0);
+}
+.gallery .gallery-four .cont-container .btn{
+    color: white;
+    border: 0;
+    background: orangered;
+    font-weight: 600;
+}
+.gallery .gallery-four .cont-container .btn:hover{
+    color: orangered;
+    border: 0;
+    background: rgb(212, 212, 212);
+    font-weight: 600;
+}
+.gallery .gallery-four .cont-container p{
+    color: rgb(168, 168, 168);
+}
+.gallery .gallery-four .cont-container .bottom .info .upper{
+    color: rgb(124, 0, 0);
+}
+.gallery .gallery-four .cont-container .bottom .info .lower{
+    color: rgb(165, 165, 165);
+}
+.gallery .gallery-four .cont-container .bottom .prog{
+    color: orangered;
+}
+.gallery-four .img-container{
+    max-width: 425px;
+    height: 400px;
+    overflow: hidden;
+}
+.gallery-four .img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)),url('/assets/img/thorloveandthunder_lob_crd_04.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+footer .footer-top .contact h5{
+    font-weight: 700;
+    color: rgb(182, 0, 0);
+}
+footer .footer-top .contact .btn{
+    background: rgba(0, 0, 0, 0.24);
+    color: rgb(221, 221, 221);
+} 
+footer .footer-top .contact .btn:hover{
+    background: rgba(80, 80, 80, 0.233);
+} 
+footer .footer-top .contact .fa-envelope{
+    color: rgb(223, 10, 10);
+} 
+footer .footer-top .contact .fa-phone{
+    color: rgb(0, 128, 187);
+}
+footer .footer-top .newsletter .social i{
+    font-size: 1.7rem;
+    color: rgb(175, 175, 175);
+}
+footer .footer-top .newsletter .social .fa-whatsapp:hover{
+    color: rgb(0, 228, 0);
+}
+footer .footer-top .newsletter .social .fa-instagram:hover{
+    color: rgb(255, 60, 0);
+}
+footer .footer-top .newsletter .social .fa-twitter:hover{
+    color: rgb(0, 162, 255);
+}
+footer .footer-top .newsletter .social .fa-facebook:hover{
+    color: rgb(0, 67, 250);
+}
+footer .footer-bottom{
+    background: rgba(0, 0, 0, 0.671);
+    color: rgb(95, 95, 95);
+    font-weight: 700;
+}
+
+footer .footer-top .contact{
+    width: 50%;
+}
+footer .footer-top .newsletter{
+    width: 50%;
+}
+
 
 
 @media screen and (max-width: 991px) {
@@ -406,6 +497,34 @@ img{
         width: 12rem;
         height: 10.5rem;
     }
+    .gallery-four .img-container{
+        max-width: 425px;
+        height: 400px;
+        overflow: hidden;
+    }
+    .gallery-four .img-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .gallery-four .gall-title span{
+        border-left: red 0.6rem solid;
+    }
+    .gallery-four .gall-title span h6{
+        color: rgb(204, 204, 204);
+    }
+    .gallery-four .img-container .gall-title span h6{
+
+    }
+
+
+    footer .footer-top .contact{
+        width: 100%;
+    }
+    footer .footer-top .newsletter{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -543,6 +662,29 @@ img{
     .gallery .gallery-three .gall-item p{
         color: rgb(231, 231, 231);
     }
+
+    .gallery-four .img-container{
+        max-width: 425px;
+        height: 400px;
+        overflow: hidden;
+    }
+    .gallery-four .img-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .gallery-four .gall-title span{
+        border-left: red 0.6rem solid;
+    }
+    .gallery-four .gall-title span h6{
+        color: rgb(204, 204, 204);
+    }
+    .gallery-four .img-container .gall-title span h6{
+
+    }
+
+
     /* .gallery .gallery-three .top-items .btn{ 
         background: red;
         border-radius: 0;
